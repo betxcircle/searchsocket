@@ -64,5 +64,5 @@ const SearchSocketIo = (server) => {
 const io = SearchSocketIo(server);
 
 server.listen(3001, () => {
-  console.log("🚀 Socket.io server running on port 3001");
+  console.log("🚀 Socket.io server running on port ");
 });
